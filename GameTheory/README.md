@@ -116,3 +116,50 @@ All Prisoner’s Dilemma models under the Social Science portion of the model li
 
 The segregation models are also an important set of models that were considered to be similar to this model. These models are related, because the model uses the idea that people want to be near people with the same characteristics. This feature was described as the adaptability feature of the model. The agents’ results of their game will be skewed by percentage of the population that supports a particular culture. 
 
+
+# Games
+
+## Harmony 
+
+Under the context of immigration into the EU it is interesting to consider the game of _Harmony_, shown below. In this condition, cooperating is the best solution and best rational outcome for both agents, because the Harmony Game maximizes the payoffs that correspond to the same strategies for each player. When both agents opt to adopt or keep the EU culture, they will each have the highest payoff value; this strategy is known as the dominant strategy. 
+
+![HarmonyImage](.images/Harmony.png)
+
+
+## Deadlock
+
+In the game of _Deadlock_ the situation is the exact opposite of the Harmony (above); opting to adopt the immigrant culture will earn the highest payoff for both agents (Büthe). Shown below, one can notice how the bottom right corner of the grid will earn both players the highest payoff. Similar to the Harmony game, a dominant strategy arises. A dominant strategy is present when each player chooses the choice for themselves that will have the highest possible outcome.
+
+
+![DeadlockImage](.images/Deadlock.png)
+
+
+## Prisoner's Dilemma
+
+The _Prisoner's Dilemma_ game leads both pleyers to attempt to maximize their own payoffs with no cooperation. In the image below, one can notice that there is no dominant strategy (_Nash Equilibrium_) in the Prisoner’s Dilemma. The outcome of the agent that defect is dependent upon the proportion of the population that supports each culture. 
+
+
+![PrisonersImage](.images/PrisonersDilemma.png)
+
+
+## Coordination
+
+
+The players will align their beliefs to support either the EU or immigrant culture. The manner in which this solution is simulation is similar to that of the prisoner’s dilemma. A random number is selected based on the proportion of the population that favors a particular culture. The dominant culture is more likely to gain the support of the two players from this game. 
+
+
+![CoordinationImage](.images/Coordination.png)
+
+
+## Chicken
+
+
+In the game of _Chicken_ as one player chooses EU cultural preference, the other agent will in turn support the immigrant culture. A number is randomly selected from a uniform distribution. If the number is less than one half the current agent will support the EU culture, while the target agent will support the immigrant culture. The opposite will remain true when the random number is above 0.5. 
+
+![ChickenImage](.images/Chicken.png)
+
+
+# Model Assumptions
+
+
+The strongest and most important assumption in the model is rational behavior. All of the outcomes or results for the games that were played or simulated were based on the rational behavior of human agents. The basis for this assumption is two-part. First, the assumption alleviates the need to code all possible outcomes, thus allowing the scope to drift away from the game theory approach. The second reason that we made this assumption is based on the fact over a large number of iterations, a real human would learn and choose the answers that we have explicitly coded into the model. 
